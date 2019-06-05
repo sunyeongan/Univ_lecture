@@ -14,5 +14,7 @@
 <img width="229" alt="perceptron" src="https://user-images.githubusercontent.com/44018024/58865089-e7c17880-86f0-11e9-805b-72219459a394.png">
 
 * CNN (Convolutional Neural Network)
+<img width="262" alt="20190605_221924" src="https://user-images.githubusercontent.com/44018024/58959443-1a966a00-87e0-11e9-9f03-fe8414dea13f.png">
+
 * ActivationFunctions(활성화 함수)
 <img width="267" alt="activation" src="https://user-images.githubusercontent.com/44018024/58865033-c3fe3280-86f0-11e9-820b-06ce2ade87e6.png">
