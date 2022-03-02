@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+while[1]
+do
+	pid = `ps -ef | grep "hello.exe" | awk '{print $2}'`
+
+	if [ -z $pid ]; 
+	then
+		"./hello.exe"
+	fi
+	sleep 2
+done
+	
