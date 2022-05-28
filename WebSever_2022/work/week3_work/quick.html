@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallym QuickMenu</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+    
+        
+
+    <link rel="stylesheet" type="text/css" href="quick.css"> 
+    
+</head>
+<body>
+    
+    
+    <div class ="quickTab">
+        <div class = "tab">
+            <img class = "Quick" src = "./quick_service.png">
+           <div id = "student">
+               재학생
+           </div>
+           <div id = "professor">
+               교수
+           </div>
+        
+        </div>
+    </div>
+        <div id = "std_menu">
+            <div class ="Menu1">
+            
+                <a href = "https://was1.hallym.ac.kr:8087/hlwc/mdi/Login.html" class = "hakjeong">
+                    <img  id = ha  src = "./icon/quick-ico1.png" href = "https://was1.hallym.ac.kr:8087/hlwc/mdi/Login.html" 
+                     style = display:block>
+                     <img  id = w src = "./icon/quick-ico1-hov.png" href = "https://was1.hallym.ac.kr:8087/hlwc/mdi/Login.html" 
+                     style = display:none>
+                    <span>학생통합정보시스템</span>
+               </a>
+               <a href ="https://hqna.hallym.ac.kr/hqna/index.do" class = "QA">
+                    <img id = cQA hover = "test(this)" src = "./icon/quick-ico3.png" href ="https://hqna.hallym.ac.kr/hqna/index.do"
+                    style = display:block>
+                    <img id = nQA hover = "test(this)" src = "./icon/quick-ico3-hov.png" href ="https://hqna.hallym.ac.kr/hqna/index.do"
+                    style = display:none>
+                    <span> 한림Q&A</span>
+               </a>
+               <a href ="https://dorm.hallym.ac.kr/dormitory/index.do" class = "domi">
+                    <img id = cdo src = "./icon/quick-ico6.png" href ="https://dorm.hallym.ac.kr/dormitory/index.do"
+                    style = display:block>
+                    <img id = ndo src = "./icon/quick-ico6-hov.png" href ="https://dorm.hallym.ac.kr/dormitory/index.do"
+                    style = display:none>
+                    <span>학생생활관</span>
+               </a>
+            
+               <a href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP4" class = "bus1">
+                    <img id = cbus1 src = "./icon/quick-ico11.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP4"
+                    style = display:block>
+                    <img id = nbus1 src = "./icon/quick-ico11-hov.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP4"
+                    style = display:none>
+                <span>셔틀버스</span>
+               </a>
+    
+               <a href ="https://shinmungo.hallym.ac.kr/report/" class = "sinmungo">
+                    <img id = csin src = "./icon/quick-ico13.png" href ="https://shinmungo.hallym.ac.kr/report/"
+                    style = display:block>
+                    <img id = nsin src = "./icon/quick-ico13-hov.png" href ="https://shinmungo.hallym.ac.kr/report/"
+                    style = display:none>
+                <span>한림신문고</span>
+               </a>
+               
+               <a href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP1" class = "map">
+                    <img id = cmap src = "./icon/quick-ico9.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP1"
+                    style = display:block>
+                    <img id = nmap src = "./icon/quick-ico9-hov.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP1"
+                    style = display:none>
+                <span>캠퍼스맵</span>
+               </a>
+            </div>    
+            <div class ="Menu2">
+                
+                <a href = "https://smartlead.hallym.ac.kr/" class = "smartlead">
+                        <img id = cle src = "./icon/quick-ico2.png" href = "https://smartlead.hallym.ac.kr/" 
+                        style = display:block>
+                        <img id = nle src = "./icon/quick-ico2-hov.png" href = "https://smartlead.hallym.ac.kr/" 
+                        style = display:none>
+                    <span>SmartLEAD</span>
+               </a>
+               <a href ="https://library.hallym.ac.kr/" class = "book">
+                    <img id = cb src = "./icon/quick-ico5.png" href ="https://library.hallym.ac.kr/"
+                    style = display:block>
+                    <img id = nb src = "./icon/quick-ico5-hov.png" href ="https://library.hallym.ac.kr/"
+                    style = display:none>
+                    <span>일송기념도서관</span>
+               </a>
+               <a href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP3" class = "bus2">
+                    <img id = cbus2 src = "./icon/quick-ico14.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP3"
+                    style = display:block>
+                    <img id = nbus2 src = "./icon/quick-ico14-hov.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP3"
+                    style = display:none>
+                <span>통학버스</span>
+               </a>
+            
+               <a href ="https://become.hallym.ac.kr/login.jsp?prevurl=" class = "become">
+                <img id = cbe src = "./icon/quick-ico15.png" href ="https://become.hallym.ac.kr/login.jsp?prevurl="
+                style = display:block>
+                <img id = nbe src = "./icon/quick-ico15-hov.png" href ="https://become.hallym.ac.kr/login.jsp?prevurl="
+                style = display:none>
+                <span>한림Become</span>
+               </a>
+    
+               <a href ="https://uni.webminwon.com/servlet/WMINDEX?COMMAND=CHOICE" class = "certification">
+                <img id = ccer src = "./icon/quick-ico4.png" href ="https://uni.webminwon.com/servlet/WMINDEX?COMMAND=CHOICE"
+                style = display:block>
+                <img id = ncer src = "./icon/quick-ico4-hov.png" href ="https://uni.webminwon.com/servlet/WMINDEX?COMMAND=CHOICE"
+                style = display:none>
+                <span>인터넷증명발급</span>
+               </a>
+               
+               <a href ="https://intern.hallym.ac.kr:6443/intern/main.do" class = "intern">
+                <img id = cintern src = "./icon/quick-ico8.png" href ="https://intern.hallym.ac.kr:6443/intern/main.do"
+                style = display:block>
+                <img id = nintern src = "./icon/quick-ico8-hov.png" href ="https://intern.hallym.ac.kr:6443/intern/main.do"
+                style = display:none>
+                <span>현장실습지원센터</span>
+               </a>
+            </div>
+        </div>
+
+        <div id = "phd_menu" style = display:none>
+            <div class ="Menu1">
+            
+                <a href = "https://was1.hallym.ac.kr:8081/HLMS/Info/index.jsp" class = "tong">
+                    <img  id = ctong src = "./icon/quick-ico1.png" href = "https://was1.hallym.ac.kr:8081/HLMS/Info/index.jsp" 
+                     style = display:block>
+                     <img  id = ntong src = "./icon/quick-ico1-hov.png" href = "https://was1.hallym.ac.kr:8087/hlwc/mdi/Login.html" 
+                     style = display:none>
+                    <span>통합정보시스템</span>
+               </a>
+               <a href ="https://att.hallym.ac.kr/login" class = "att">
+                    <img id = catt src = "./icon/quick-ico25.png" href ="https://att.hallym.ac.kr/login"
+                    style = display:block>
+                    <img id = natt src = "./icon/quick-ico25-hov.png" href ="https://att.hallym.ac.kr/login"
+                    style = display:none>
+                    <span>전자출결시스템</span>
+               </a>
+               <a href ="https://rnd.hallym.ac.kr/main_0001_01.act" class = "rnd">
+                <img id = crnd src = "./icon/quick-ico17.png" href ="https://rnd.hallym.ac.kr/main_0001_01.act"
+                style = display:block>
+                <img id = nrnd src = "./icon/quick-ico17-hov.png" href ="https://rnd.hallym.ac.kr/main_0001_01.act"
+                style = display:none>
+                <span>연구행정통합시스템</span>
+               </a>
+            
+               <a href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP13/sCP1/tab1" class = "hang">
+                <img id = chang src = "./icon/quick-ico28.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP13/sCP1/tab1"
+                style = display:block>
+                <img id = nhang src = "./icon/quick-ico28-hov.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP13/sCP1/tab1"
+                style = display:none>
+                <span>행정부서/기관</span>
+               </a>
+    
+               <a href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP4" class = "sbus">
+                <img id = csbus src = "./icon/quick-ico11.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP4"
+                style = display:block>
+                <img id = nsbus src = "./icon/quick-ico11-hov.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP6/sCP4"
+                style = display:none>
+                <span>셔틀버스</span>
+               </a>
+               
+               <a href ="https://www.academyinfo.go.kr/pubinfo/pubinfo1600/doInit.do?schlId=0000198" class = "arm">
+                <img id = carm src = "./icon/quick-ico20.png" href ="https://www.academyinfo.go.kr/pubinfo/pubinfo1600/doInit.do?schlId=0000198"
+                style = display:block>
+                <img id = narm src = "./icon/quick-ico20-hov.png" href ="https://www.academyinfo.go.kr/pubinfo/pubinfo1600/doInit.do?schlId=0000198"
+                style = display:none>
+                <span>대학알리미</span>
+               </a>
+            </div>    
+            <div class ="Menu2">
+                
+                <a href = "https://smartlead.hallym.ac.kr/" class = "psmartlead">
+                    <img id = cplead src = "./icon/quick-ico2.png" href = "https://smartlead.hallym.ac.kr/" 
+                    style = display:block>
+                    <img id = nplead src = "./icon/quick-ico2-hov.png" href = "https://smartlead.hallym.ac.kr/" 
+                    style = display:none>
+                    <span>SmartLEAD</span>
+               </a>
+               <a href ="https://gw.hallym.ac.kr/index.aspx class = " class ="group">
+                    <img id = cgr src = "./icon/quick-ico26.png" href ="https://gw.hallym.ac.kr/index.aspx"
+                    style = display:block>
+                    <img id = ngr src = "./icon/quick-ico26-hov.png" href ="https://gw.hallym.ac.kr/index.aspx"
+                    style = display:none>
+                    <span>한림그룹웨어</span>
+               </a>
+               <a href ="http://was1.hallym.ac.kr:8080/HLMS/newemp_login_2.jsp" class = "job2">
+                <img id = cjob src = "./icon/quick-ico3.png" href ="http://was1.hallym.ac.kr:8080/HLMS/newemp_login_2.jsp"
+                style = display:block>
+                <img id = njob src = "./icon/quick-ico3-hov.png" href ="http://was1.hallym.ac.kr:8080/HLMS/newemp_login_2.jsp"
+                style = display:none>
+                <span>채용시스템</span>
+               </a>
+            
+               <a href ="https://www.hallym.ac.kr/hallym_univ/sub11/cP5/sCP5" class = "vision">
+                <img id = cvi src = "./icon/quick-ico22.png" href ="https://www.hallym.ac.kr/hallym_univ/sub11/cP5/sCP5"
+                style = display:block>
+                <img id = nvi src = "./icon/quick-ico22-hov.png" href ="https://www.hallym.ac.kr/hallym_univ/sub11/cP5/sCP5"
+                style = display:none>
+                <span>한림Vision</span>
+               </a>
+    
+               <a href ="https://fund.hallym.ac.kr/fund/index.do" class = "money">
+                <img id = cm src = "./icon/quick-ico29.png" href ="https://fund.hallym.ac.kr/fund/index.do"
+                style = display:block>
+                <img id = nm src = "./icon/quick-ico29-hov.png" href ="https://fund.hallym.ac.kr/fund/index.do"
+                style = display:none>
+                <span>발전기금</span>
+               </a>
+               
+               <a href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP4/sCP3/tab1" class = "manner">
+                <img id = cman src = "./icon/quick-ico27.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP4/sCP3/tab1"
+                style = display:block>
+                <img id = nman src = "./icon/quick-ico27-hov.png" href ="https://www.hallym.ac.kr/hallym_univ/sub04/cP4/sCP3/tab1"
+                style = display:none>
+                <span>규정집</span>
+               </a>
+            </div>
+        </div>
+        
+    
+    
+    
+</body>
+</html>

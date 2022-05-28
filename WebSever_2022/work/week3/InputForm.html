@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h2>글 작성하기</h2>
+</head>
+
+<body>
+    <form action="./action.php" method="get">
+        <table>
+
+            <tr>
+                <td>작성자</td>
+                <td><input type="text" name="writer"></td>
+
+            </tr>
+
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>이메일</td>
+                <td><input type="text" name="email_id"> @ <input type="text" name="email_addr"> <br></td>
+            </tr>
+
+            <tr>
+                <td>휴대폰</td>
+                <td><select name="phone">
+                        <option value="010" selected> 010
+                        <option value="011"> 011
+                        <option value="012"> 012
+                    </select>
+                    -<input type="tel" name="phone_mid" />
+                    -<input type="tel" name="phone_end" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>글제목</td>
+                <td><input type="text" name="title"></td>
+            </tr>
+            <tr>
+                <td>내용</td>
+                <td><textarea name="cont" rows="10" cols="30">
+                    </textarea><br>
+                    <button type="button" onclick="alert('내용이 제출되었습니다.')" ,>제출</button>
+                </td>
+            </tr>
+        </table>
+</body>
+
+</html>

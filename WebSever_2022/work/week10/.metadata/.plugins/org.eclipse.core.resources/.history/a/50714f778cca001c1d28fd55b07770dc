@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+
+	Date time = new Date();
+	SimpleDateFormat formatter = new SimpleDateFormat(
+			"yyyy-MM-dd HH:mm:ss");
+			
+%>
+<form method = "post" action = "request2.jsp">
+
+	°ü¸®ÀÚ : <input type = "text" name = "admin"><p>
+	
+</form>
+
+</body>
+</html>

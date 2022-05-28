@@ -1,0 +1,13 @@
+package week12;
+
+public class stuBean {
+	
+	private String id;
+	private String Sname;
+	private String call;
+	private int year;
+	private String pw;
+	private String mail;
+	
+
+}

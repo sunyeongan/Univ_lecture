@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<% %>
+<%
+
+	request.setCharacterEncoding("euc-kr");
+	
+
+%>
+
+
+
+<jsp:include page="request2.jsp" flush="true">
+
+	<jsp:param name = "admin" value = "나관리 "/>
+	<jsp:param name = "time" value = "시간  " />
+	
+</jsp:include>
+
+<%
+
+ out.println("----------------------" +"br>" + "수고하셨습니다. ");
+
+%>

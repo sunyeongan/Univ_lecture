@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login_pro</title>
+</head>
+<body>
+	<%
+	
+		String user_id = request.getParameter("id");
+		String user_pw = request.getParameter("passwd");
+		
+		
+		
+		if(user_id.equals("kim") && user_pw.equals("1234")){
+			Cookie cookie_id = new Cookie("userID", user_id);
+			Cookie cookie_pw = new Cookie("userPW", user_pw);
+			response.addCookie(cookie_id);
+			response.addCookie(cookie_pw);
+			out.println("[" + user_id + "]님 반갑습니다.\n");
+		}else{
+		%>
+			<script>
+			alert("아이디와 패스워드가 다릅니다.");
+			</script>
+		<%
+		}
+		%>	
+		
+		
+	
+	<%
+		
+		out.print(user_id);
+	%>
+	
+	<a href = "님의 관리 페이지로 이동합니다. " target="./my.jsp"></a>
+	<a href = "로그아웃합니다. " target = "./login.jsp"></a>
+	
+	
+</body>
+</html>

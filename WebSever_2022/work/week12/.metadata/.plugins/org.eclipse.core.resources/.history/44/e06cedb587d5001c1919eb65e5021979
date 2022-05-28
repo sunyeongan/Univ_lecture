@@ -1,0 +1,49 @@
+package week12;
+
+public class stuBean {
+	
+	private String id;
+	private String Sname;
+	private String call;
+	private int year;
+	private String pw;
+	private String mail;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getSname() {
+		return Sname;
+	}
+	public void setSname(String sname) {
+		Sname = sname;
+	}
+	public String getCall() {
+		return call;
+	}
+	public void setCall(String call) {
+		this.call = call;
+	}
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
+	public String getPw() {
+		return pw;
+	}
+	public void setPw(String pw) {
+		this.pw = pw;
+	}
+	public String getMail() {
+		return mail;
+	}
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+	
+
+}

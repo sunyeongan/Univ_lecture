@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<% %>
+<%
+
+	request.setCharacterEncoding("euc-kr");
+	
+
+%>
+
+
+<%
+
+ String admin = "唱包府 ";
+ 
+%>
+<h3>包府磊 : <%=admin %></h3>
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu3</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            width:700px;
+        }
+        div{
+            background-color:#cec7b6;
+            color : white;
+            height : 50px;
+            display:grid;
+            
+            
+        }
+        a{
+            text-decoration: none;
+            margin:45px;
+            color : white;
+            
+        }
+        
+        ul{
+            list-style: none;
+        }
+        .navi li{
+            float:left;
+            position: relative;
+        }
+        .navi li a:hover{
+            color : #625945
+        }
+       .navi li ul {    /* 서브 메뉴 영역에 대한 스타일 */
+
+        position: absolute;
+
+        margin: 0;
+
+        padding: 0;
+
+        left: 0;
+
+        width: 160px;
+
+        list-style-type: none;
+
+        background: #fff;
+
+        opacity: 0;
+
+        box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.2);      
+
+                           /* (Horizontal Length) (Vertical Length) (Blur Radius) (Spread) (RGBA) */
+
+        -webkit-box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.2);
+
+        }
+
+        .navi li:hover ul { /* 메인 메뉴 위로 마우스 오버했을 때 서브 메뉴 스타일 */
+
+        opacity: 1;
+
+        }
+
+       .navi li ul li { /* 서브 메뉴 각 항목의 스타일 */
+
+        float: none;
+        
+        position: static;
+        display: block;
+        height: 0;
+
+        line-height: 0;
+
+        background: none;
+
+        }
+       .navi li:hover ul li { /* 메인 메뉴 위로 마우스 오버 했을 때의 서브 메뉴 항목의 스타일 */
+
+        padding: 10px 0;
+        
+        height: 30px;
+
+        line-height: 20px;
+
+        border-bottom: 1px dotted #eaeaea;
+
+    }
+
+    .navi li ul li a { /* 서브 메뉴 항목에서의 링크에 대한 스타일 */
+
+    color: #8e8776;
+    font-size: 13px;
+
+    }
+
+    .navi li ul li:hover a { /* 서브 메뉴 위로 마우스 오버 했을 때의 서브 메뉴 항목의 스타일 */
+
+    color: #625942;
+    
+
+    }
+
+    .navi li ul li { /* .navi li ul li > .navi li:hover ul li */
+
+    transition: all 0.2s;
+
+    -webkit-transition: all 0.2s;
+
+    -moz-transition: all 0.2s;
+
+    -ms-transition: all 0.2s;
+
+    -o-transition: all 0.2s;
+
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <ul class = "navi">
+            <li><a href ="#">menu01</a>
+                <ul>
+                    <li><a href ="#">menu01-1</a></li>
+                    <li><a href ="#">menu01-2</a></li>
+                    <li><a href ="#">menu01-3</a></li>
+                </ul>
+                
+            </li>
+            
+                
+                
+            <li><a href ="#">menu02</a>
+                <ul>
+                    <li><a href ="#">menu02-1</a></li>
+                    <li><a href ="#">menu02-2</a></li>
+                    <li><a href ="#">menu02-3</a></li>
+                </ul>
+            </li>
+                
+            <li><a href ="#">menu03</a>
+                <ul>
+                    <li><a href ="#">menu03-1</a></li>
+                    <li><a href ="#">menu03-2</a></li>
+                    <li><a href ="#">menu03-3</a></li>
+                </ul>
+            
+            </li>
+            <li><a href ="#">menu04</a>
+                <ul>
+                    <li><a href ="#">menu04-1</a></li>
+                    <li><a href ="#">menu04-2</a></li>
+                    <li><a href ="#">menu04-3</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+    </div>
+    
+</body>
+</html>

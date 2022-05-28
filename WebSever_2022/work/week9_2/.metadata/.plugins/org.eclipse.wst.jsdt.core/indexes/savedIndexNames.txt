@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/anseon-yeong/수업/2022-1/웹서버구축/실습/week9_2/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1034018872.index
+2556135951.index
+331945258.index
+4108735747.index
+1232139425.index
+556898939.index
+1894479430.index

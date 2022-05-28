@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	request.setCharacterEncoding("euc-kr");
+%>
+
+<%
+
+	
+
+	String name = "나관리 ";
+	String passwd = request.getParameter("passwd");
+	String ip = request.getRemoteAddr();
+%>
+
+<% 
+	if(name!="나관리" || passwd != "1234"){
+		out.println("["+name+"]님은 관리자가 아닙니다.");
+	}
+	else{ // 맞으면 요청정보 출력 
+		out.println("이름 :" + name); 
+		
+			
+		}
+	
+	
+%>
+
+클라이언트 IP : <%=request.getRemoteAddr() %><p>
+		요청 정보 길이 : <%=request.getContentLength() %><p>
+		요청 정보 전송방식 : <%=send %><p>
+		요청 URI : <%= request.getRequestURI() %><p>
+		서버 이름 : <%= request.getServerName() %><p>
+		서버 포트 : <%= request.getServerPort() %><p>
+
+
+</body>
+</html>

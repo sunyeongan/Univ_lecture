@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h2>JavaBeans를 이용한 학새으이 점수에 따른 성적 처리 예제 </h2>
+	<%request.setCharacterEncoding("euc-kr") %>
+
+</body>
+</html>

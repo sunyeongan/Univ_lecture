@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=EUC-KR">
+<title>학생정 </title>
+</head>
+<body>
+	<h2> 학생정 </h2>
+	<form method = post action = form.jsp>
+	�̸� : <input type = text name = name size=16><br>
+	���� : <input type = text name = point size=3><br>
+	<input type="submit" value = "�Է¿Ϸ�">
+	<input type="submit" value = "�ٽþ���">
+	</form>
+	
+
+</body>
+</html>

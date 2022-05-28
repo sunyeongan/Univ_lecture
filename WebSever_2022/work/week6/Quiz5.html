@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM basic</title>
+    <script>
+        window.onload = function(){
+            
+            var output = '';
+
+            for(var i = 0; i < 256; i++){
+                output += '<div></div>';
+                
+            }
+            document.body.innerHTML = output;
+
+            var headers = document.querySelectorAll('div');
+            
+            for(var i = 0; i<256; i++){
+                headers[i].style.background="rgb("+i+","+i+","+i+")";
+                headers[i].style.height = '2px';
+            }
+        };
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

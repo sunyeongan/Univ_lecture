@@ -1,0 +1,83 @@
+div.tab{
+            
+    padding-left : 169px;
+    padding-top : 40px;
+    padding-bottom : 80px;
+    padding-right : 10px;
+    margin:0;
+    background-image: url("./tab_back2.jpg");
+    background-size: 100% 100%;
+
+}
+#student,#professor{
+    font-size : 20px;
+    color : black;
+    float : left;
+    margin-left: 100px;
+    
+    padding-left:80px;
+    border-left : 1px solid grey;
+    font-size:30px;
+    
+
+}
+
+img.Quick{
+    position : absolute;
+    top : 10px;
+    left : 40px;
+    width:150px;
+    height : 130px;
+    filter:drop-shadow(5px 5px 5px grey)            
+    
+}
+div.Menu1{
+    
+    padding-right:100px;
+    margin-top:50px;
+    padding-top:50px;
+    padding-bottom: 100px;
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+    
+    
+}
+div.Menu2{
+    
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+}
+img{
+    
+    position: relative;
+    top:80px;
+    margin-bottom : 30px;
+    margin-left : 110px;/*아이콘 좌우*/
+    margin-right : 100px;
+    width : 80px;
+    height : 80px;
+
+}
+
+a{
+    border-right : 0.5px solid grey;
+    text-decoration-line: none;
+    width : 300px;
+    height :300px;
+    font-size: 20px;
+    color : grey;
+    text-align:center;
+   
+}
+a:hover{
+    
+    background-color : #0165B3;
+    color : white;
+    
+    
+    
+}
+span{
+    position: relative;
+    top:90px;
+}

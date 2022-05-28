@@ -1,0 +1,63 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	div{
+		text-align : center;
+		margin-left : 5px;
+		margin-right : 5px;
+	}
+	.site{
+		width : 100%;
+		height : 30%;
+		background-color : black;
+		
+	}
+	.main{
+		width : 100%;
+		height : 10%;
+		background-color : grey;
+		font-size : 20px;
+		
+	}
+	.mid{
+		font-size : 5px;
+		
+	}
+	.bar{
+		color:white;
+		text-decoration : none;
+		padding-left : 50px;
+		height : 40px;
+		line-height : 40px;
+	}
+	
+</style>
+</head>
+<body>
+
+<nav class="site">
+	<a class ="bar" href="./환영.jsp">Home</a>
+</nav>
+
+<div class = "menubar">
+</div>
+<div class="main">
+	<p>Welcome to Shopping Mall!</p>
+</div>
+
+
+<div class = "mid">
+	<p>Welcome to Web Market!</p>
+</div>
+
+
+<footer class="">
+<p>&copy; WebMarket</p>
+</footer>
+</body>
+</html>

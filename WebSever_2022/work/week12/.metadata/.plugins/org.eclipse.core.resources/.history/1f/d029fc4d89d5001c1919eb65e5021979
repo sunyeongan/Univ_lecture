@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=EUC-KR">
+<title>학생 </title>
+</head>
+<body>
+	<h2> 학생정보 </h2>
+	
+	<table>
+	<tr><td>학생 아이디 : </td> <td><input type = text name = id ></td></tr>
+	<tr><td>학생 이름  : </td> <td><input type = text name = Sname></td></tr>
+	<tr><td>학생 번호 : </td> <td><input type = text name = call></td></tr><br>
+	<tr><td>태어난 해 : </td> <td><select>
+				<option>1995</option>
+				<option>1996</option>
+			</td></select></tr>
+	<tr><td>암호 : </td> <td><input type = password name = pw></td></tr>
+	<tr><td>전자 메일 : </td> <td><input type = "text" name = mail></td><br>
+	
+	</table>
+	<input type="submit" value = "입력완료">
+	<input type="submit" value = "다시쓰기">
+	
+	</form>
+	
+
+</body>
+</html>

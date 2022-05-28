@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form method = "post" action="ex1.jsp">
+
+	이름 : <input type = "text" name = "name"><p>
+	비밀번호 : <input type =text" name = "passwd"><p>
+	<input type = "submit" value = "전송">
+</form>
+</body>
+</html>
